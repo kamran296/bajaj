@@ -1,0 +1,240 @@
+<!-- widget.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind cdn links -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/tailwindcss">
+      body {
+        font-family: "Poppins";
+      }
+      .bg-green-light {
+        background-color: #cce3f2;
+      }
+      .bg-green {
+        background:#0072bc
+      }
+      .button-bg {
+        background-color: #f89c30;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex rounded-lg flex-col shadow-[0px_4px_9px_-4px_#3b71ca]">
+        <!-- first row -->
+        <!-- card -1  -->
+    <div class="flex p-2 text-black justify-center items-center bg-green">
+      
+      <div
+        class="block max-w-md rounded-lg bg-white m-8 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-[28.375rem]"
+      >
+        <div
+          class="flex justify-center items-center rounded-lg text-white bg-green text-xl p-4 font-semibold"
+        >
+          Health Insurence Plan
+        </div>
+
+        <div class="p-8">
+          <p class="pb-2">Tax exemptionup to Rs.54,600</p>
+          <p class="pb-2">High life cover at affordable premiums</p>
+          <p class="pb-2">Claim Paid Ratio 99.51%</p>
+          <p class="pb-2">Coverage against 64 critical illnesses</p>
+        </div>
+
+        <div class="flex w-full">
+          <div class="w-1/2">
+            <a href="http://127.0.0.1:5173/Policyform">
+            <button
+              type="submit"
+              class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              id="calBtn"
+
+            >
+              Buy Insurence
+            </button>
+            </a>    
+          </div>
+          <div class="w-1/2">
+            <button
+              type="submit"
+              class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              id="calBtn"
+            >
+              Download Brosher
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card - 2 -->
+      <div class="flex m-8">
+        <div
+        class="block max-w-md rounded-lg bg-white m-8 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-[28.375rem]"
+      >
+        <div
+          class="flex justify-center items-center rounded-lg text-white bg-green text-xl p-4 font-semibold"
+        >
+          Diabetic Term Plan
+        </div>
+
+        <div class="p-8">
+          <p class="pb-2">Tax exemptionup to Rs.54,600</p>
+          <p class="pb-2">High life cover at affordable premiums</p>
+          <p class="pb-2">Claim Paid Ratio 99.51%</p>
+          <p class="pb-2">Coverage against 64 critical illnesses</p>
+        </div>
+
+        <div class="flex w-full">
+          <div class="w-1/2">
+            <button
+              type="submit"
+              class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              id="calBtn"
+            >
+              Buy Insurence
+            </button>
+          </div>
+          <div class="w-1/2">
+            <button
+              type="submit"
+              class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              id="calBtn"
+            >
+              Download Brosher
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- row - 2 -->
+    <div class="flex rounded-lg p-2 text-black justify-center items-center bg-green">
+        <!-- card - 3 -->
+        <div
+          class="block max-w-md rounded-lg bg-white m-8 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-[28.375rem]"
+        >
+          <div
+            class="flex justify-center items-center rounded-lg text-white bg-green text-xl p-4 font-semibold"
+          >
+            Life Insurence Plan
+          </div>
+  
+          <div class="p-8">
+            <p class="pb-2">Tax exemptionup to Rs.54,600</p>
+            <p class="pb-2">High life cover at affordable premiums</p>
+            <p class="pb-2">Claim Paid Ratio 99.51%</p>
+            <p class="pb-2">Coverage against 64 critical illnesses</p>
+          </div>
+  
+          <div class="flex w-full">
+            <div class="w-1/2">
+              <button
+                type="submit"
+                class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                id="calBtn"
+              >
+                Buy Insurence
+              </button>
+            </div>
+            <div class="w-1/2">
+              <button
+                type="submit"
+                class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                id="calBtn"
+              >
+                Download Brosher
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- card - 4 -->
+        <div class="flex m-8">
+          <div
+          class="block max-w-md rounded-lg bg-white m-8 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-[28.375rem]"
+        >
+          <div
+            class="flex justify-center items-center rounded-lg text-white bg-green text-xl p-4 font-semibold"
+          >
+             Term Insurence Plan
+          </div>
+  
+          <div class="p-8">
+            <p class="pb-2">Tax exemptionup to Rs.54,600</p>
+            <p class="pb-2">High life cover at affordable premiums</p>
+            <p class="pb-2">Claim Paid Ratio 99.51%</p>
+            <p class="pb-2">Coverage against 64 critical illnesses</p>
+          </div>
+  
+          <div class="flex w-full">
+            <div class="w-1/2">
+              <button
+                type="submit"
+                class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                id="calBtn"
+              >
+                Buy Insurence
+              </button>
+            </div>
+            <div class="w-1/2">
+              <button
+                type="submit"
+                class="inline-flex w-50 h-12 rounded-full justify-center content-center button-bg px-6 py-3 font-poppins font-semibold leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] hover:bg-orange-500"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+                id="calBtn"
+              >
+                Download Brosher
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+</div>
+  </body>
+</html>
